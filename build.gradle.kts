@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "2.2.10"
+    kotlin("jvm") version "2.3.0"
     id("com.typewritermc.module-plugin") version "2.1.0"
 }
 
@@ -25,7 +25,7 @@ typewriter {
         shortDescription = "Simple usage of ModelEngine for NPCs"
         description =
             "Adding the capability to use ModelEngine for non player characters in your quests. I need atleast 100 characters blablablalbal"
-        engineVersion = "0.9.0-beta-173"
+        engineVersion = "0.9.0-beta-175"
         channel = com.typewritermc.moduleplugin.ReleaseChannel.BETA
 
         paper {
